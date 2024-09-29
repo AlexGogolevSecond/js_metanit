@@ -23,5 +23,19 @@ for(let i = 10; i > 5; i--){
 7
 6
 */
+console.log('**************');
+const person = {name: "Tom", age: 37};
+for (prop in person) {  // for .. in - для перебора объектов
+    console.log(prop, person[prop]);
+}
 
-
+console.log('**************');
+const s = 'la';
+for (ch in s) {
+    console.log(ch);
+}
+console.log('**************');
+const text = 'Hello';
+for (ch of text) {  // for .. of для перебора наборов данных
+    console.log(ch);
+}
