@@ -39,3 +39,9 @@ const text = 'Hello';
 for (ch of text) {  // for .. of для перебора наборов данных
     console.log(ch);
 }
+
+console.log('**************');
+const people = ["Tom", "Sam", "Bob"];
+for (const person of people) {
+    console.log(person);
+}
