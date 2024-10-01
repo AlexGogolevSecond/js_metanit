@@ -43,3 +43,4 @@ const perimeter = (...numbers) => {
 }
 
 console.log('perimeter:' + perimeter(2,3,2,3));
+console.log('aaa');
